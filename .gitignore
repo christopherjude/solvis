@@ -1,0 +1,6 @@
+node_modules/
+dist/
+.solvis-out/
+*.tsbuildinfo
+.DS_Store
+coverage/

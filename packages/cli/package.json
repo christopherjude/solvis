@@ -1,0 +1,27 @@
+{
+  "name": "@solvis/cli",
+  "version": "0.0.0",
+  "description": "Solvis CLI: build a solution graph + viewer from a project.",
+  "type": "module",
+  "bin": {
+    "solvis": "./dist/index.js"
+  },
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsup src/index.ts --format esm --clean",
+    "test": "vitest run",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@solvis/core": "*",
+    "@solvis/server": "*"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.2",
+    "tsup": "^8.3.5",
+    "typescript": "^5.7.2",
+    "vitest": "^2.1.8"
+  }
+}

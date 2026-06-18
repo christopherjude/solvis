@@ -1,0 +1,5 @@
+# Presence of this file tells the /daily-report skill to skip this repo.
+# The daily-report collect script (~/.claude/scripts/daily-report-collect.sh)
+# checks for this marker and excludes the repo from the report entirely.
+#
+# Remove this file to start including solvis in daily reports again.
